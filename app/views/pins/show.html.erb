@@ -8,6 +8,8 @@
 			</div>
 			<div class='panel-body'>
 			 	<p><%= @pin.description %></p>
+			 	
+				
 				<p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
 				<% if @pin_user == current_user %>
